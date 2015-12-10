@@ -1,9 +1,14 @@
 var http = require('http');
 
-function GET() {
+function GET(req, res) {
 
 }
 
-function POST() {
-	
+function POST(req, res) {
+
+}
+
+module.exports = {
+	get: GET,
+	post: POST
 }
