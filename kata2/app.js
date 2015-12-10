@@ -5,10 +5,6 @@ user.onSave(function(user, userId){
 	console.log('saved: ' + user.name + '(' + userId + ')');
 });
 
-user.onDelete(function(userId){
-	console.log('deleted: ' + userId);
-});
-
 user.onError(function(error){
 	console.log('Error on erase: ' + error);
 });
