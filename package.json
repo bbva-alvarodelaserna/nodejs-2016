@@ -1,0 +1,12 @@
+{
+  "name": "katas-node-2015",
+  "version": "0.0.1",
+  "dependencies": {
+    "body-parser": "^1.14.1",
+    "compression": "^1.6.0",
+    "events": "^1.1.0",
+    "express": "^4.13.3",
+    "util": "^0.10.3"
+  },
+  "devDependencies": {}
+}
