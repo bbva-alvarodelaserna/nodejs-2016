@@ -37,10 +37,6 @@ User.prototype.onSave = function(callback){
 	this.on('save', callback);
 }
 
-User.prototype.onDelete = function(callback){
-	this.on('delete', callback);
-}
-
 User.prototype.onError = function(callback){
 	this.on('error', callback);
 }
